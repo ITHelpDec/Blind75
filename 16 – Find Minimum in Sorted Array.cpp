@@ -12,6 +12,7 @@ int findMin(const std::vector<int> &nums)
 }
 
 // another version
+// will only work if jumps are rqual to 1
 int findMin2(const std::vector<int> &nums)
 {
     // edge case for 1 and 2 element vectors
